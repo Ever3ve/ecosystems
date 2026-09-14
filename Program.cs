@@ -35,26 +35,34 @@
                         result = Addition.Add(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
+
                     case "2":
                         //TODO
                         break;
+
                     case "3":
                         result = Multiplication.Multiply(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
+
                     case "4":
-                        //TODO
+                        // TODO
                         break;
+
                     case "5":
-                        //TODO
+                        result = Power.Raise(num1, num2);
+                        Console.WriteLine($"Result: {result}");
                         break;
+
                     case "6":
-                        //TODO
+                        result = Remainder.Calculate(num1, num2);
+                        Console.WriteLine($"Result: {result}");
                         break;
                     case "7":
                         keepRunning = false;
                         Console.WriteLine("Exiting the application. Bye-bye xx!");
                         break;
+
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
                         break;
@@ -65,20 +73,19 @@
                     Console.WriteLine("Press any key to return to the menu...");
                     Console.ReadKey();
                 }
-
             }
         }
 
         private static void ShowMenu()
         {
-            Console.WriteLine("Welcome to the Calculator App!");
+            Console.WriteLine("Welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
             Console.WriteLine("3. Multiplication");
             Console.WriteLine("4. Division");
             Console.WriteLine("5. Power");
-            Console.WriteLine("6. Square Root");
+            Console.WriteLine("6. Remainder");
             Console.WriteLine("7. Exit");
             Console.Write("Enter your choice (1-7): ");
         }
