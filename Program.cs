@@ -43,7 +43,8 @@
                         Console.WriteLine($"Result: {result}");
                         break;
                     case "4":
-                        //TODO
+                        result = Division.Divide(num1, num2);
+                        Console.WriteLine($"Result: {result}");
                         break;
                     case "5":
                         //TODO
@@ -72,8 +73,7 @@
         private static void ShowMenu()
         {
             Console.WriteLine("Welcome to the Calculator App!");
-            Console.WriteLine("-------------------------------");
-            
+            Console.WriteLine("7 варіант");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
