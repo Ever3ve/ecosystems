@@ -72,8 +72,9 @@
 
         private static void ShowMenu()
         {
-            Console.WriteLine("Welcome to the Calculator App! from eve");
+            Console.WriteLine("Welcome to the Calculator App! by the girls xx,from eve");
             Console.WriteLine("7 варіант");
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
