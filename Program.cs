@@ -46,8 +46,8 @@
                         break;
 
                     case "4":
-                        // TODO
-                        break;
+                        result = Division.Divide(num1, num2);
+                        Console.WriteLine($"Result: {result}");                        break;
 
                     case "5":
                         result = Power.Raise(num1, num2);
@@ -79,6 +79,7 @@
         private static void ShowMenu()
         {
             Console.WriteLine("Welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            Console.WriteLine("7 варіант");
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
