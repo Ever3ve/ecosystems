@@ -71,9 +71,8 @@
 
         private static void ShowMenu()
         {
-            Console.WriteLine("Welcome to the Calculator App!");
+            Console.WriteLine("Welcome to the Calculator App! by the girls xx");
             Console.WriteLine("-------------------------------");
-            
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
             Console.WriteLine("2. Subtraction");
