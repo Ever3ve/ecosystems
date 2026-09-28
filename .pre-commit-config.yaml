@@ -29,7 +29,6 @@ repos:
 
   - repo: local
     hooks:
-      # post-commit: Вивід випадкового анекдоту та логування
       - id: post-commit-log
         name: Random Programmer Joke on Commit
         entry: bash .githooks/post-commit.sh
@@ -38,7 +37,6 @@ repos:
         stages: [post-commit]
         always_run: true
 
-      # post-merge: Автоматичне відновлення NuGet-пакетів для C#
       - id: post-merge-deps
         name: Post-Merge Restore Dependencies
         entry: bash -c 'echo -e "\n🔄 Виконано merge! Відновлення NuGet пакетів...\n" && dotnet restore'

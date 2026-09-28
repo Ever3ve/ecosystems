@@ -37,7 +37,6 @@
                         break;
 
                     case "2":
-                        //TODO
                         break;
 
                     case "3":
@@ -58,6 +57,12 @@
                         result = Remainder.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
+
+                    case "9":
+                        result = SquareRoot.Root(num1);
+                        Console.WriteLine($"Result: {result}");
+                        break;
+
                     case "7":
                         keepRunning = false;
                         Console.WriteLine("Exiting the application. Bye-bye xx!");
@@ -88,6 +93,7 @@
             Console.WriteLine("4. Division");
             Console.WriteLine("5. Power");
             Console.WriteLine("6. Remainder");
+            Console.WriteLine("9. Square Root");
             Console.WriteLine("7. Exit");
             Console.Write("Enter your choice (1-7): ");
         }
