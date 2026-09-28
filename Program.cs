@@ -60,7 +60,7 @@
                         break;
                     case "7":
                         result = Percentage.Calculate(num1, num2);
-                        Console.WriteLine($"Result: {result}%");
+                        Console.WriteLine($"Result: {result}");
                         break;
                     case "8":
                         keepRunning = false;
