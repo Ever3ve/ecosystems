@@ -37,7 +37,8 @@
                         break;
 
                     case "2":
-                        //TODO
+                        result = SquareRoot.Root(num1);
+                        Console.WriteLine($"Result: {result}");
                         break;
 
                     case "3":
@@ -83,7 +84,7 @@
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
-            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("2. Square Root");
             Console.WriteLine("3. Multiplication");
             Console.WriteLine("4. Division");
             Console.WriteLine("5. Power");
