@@ -19,7 +19,7 @@
                     break;
                 }
 
-                if (choice != "1" && choice != "2" && choice != "3" && choice != "4" && choice != "5" && choice != "6")
+                if (choice != "1" && choice != "2" && choice != "3" && choice != "4" && choice != "5" && choice != "6" && choice != "7" && choice != "8" && choice != "9" && choice != "10")
                 {
                     Console.WriteLine("Invalid choice. Please try again.");
                     Console.WriteLine("Press any key to return to the menu...");
@@ -58,7 +58,13 @@
                         result = Remainder.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
-                    case "7":
+
+                    case "8":
+                        result = Factorial.Calculate((int)num1);
+                        Console.WriteLine($"Result: {result}");
+                        break;
+
+                    case "10":
                         keepRunning = false;
                         Console.WriteLine("Exiting the application. Bye-bye xx!");
                         break;
@@ -79,7 +85,6 @@
         private static void ShowMenu()
         {
             Console.WriteLine("Welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-            Console.WriteLine("7 варіант");
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Please choose an operation:");
             Console.WriteLine("1. Addition");
@@ -88,8 +93,9 @@
             Console.WriteLine("4. Division");
             Console.WriteLine("5. Power");
             Console.WriteLine("6. Remainder");
-            Console.WriteLine("7. Exit");
-            Console.Write("Enter your choice (1-7): ");
+            Console.WriteLine("8. Factorial");
+            Console.WriteLine("10. Exit");
+            Console.Write("Enter your choice (1-10): ");
         }
 
         private static void EnterNumbers(out double num1, out double num2)
