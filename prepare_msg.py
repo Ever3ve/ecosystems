@@ -17,4 +17,5 @@ except Exception:
 # Дописуємо підпис у кінець файлу
 with open(commit_msg_filepath, 'a', encoding='utf-8') as f:
     f.write(f"\n\n# Розробник: {author_name} | Час: {current_time}\n")
+
     
