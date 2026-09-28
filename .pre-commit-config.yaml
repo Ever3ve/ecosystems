@@ -13,6 +13,19 @@ repos:
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
+  - repo: local
+    hooks:
+      - id: dotnet-build
+        name: Check compilation (dotnet build)
+        entry: dotnet build ecosystems.sln
+        language: system
+        pass_filenames: false
+        stages: [push]
+      - id: add-timestamp
+        name: Add timestamp to commit msg
+        entry: py prepare_msg.py
+        language: system
+        stages: [prepare-commit-msg]
 
   - repo: local
     hooks:
