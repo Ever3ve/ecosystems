@@ -47,7 +47,7 @@
 
                     case "4":
                         result = Division.Divide(num1, num2);
-                        Console.WriteLine($"Result: {result}");                        break;
+                        Console.WriteLine($"Result: {result}"); break;
 
                     case "5":
                         result = Power.Raise(num1, num2);
