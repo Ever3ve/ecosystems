@@ -32,3 +32,4 @@ repos:
         language: system
         stages: [post-merge]
         always_run: true
+        verbose: true
