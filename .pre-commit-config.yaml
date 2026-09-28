@@ -20,6 +20,7 @@ repos:
       - id: post-commit-log
         name: Random Programmer Joke on Commit
         entry: bash .githooks/post-commit.sh
+        verbose: true
         language: system
         stages: [post-commit]
         always_run: true
