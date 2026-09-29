@@ -37,7 +37,6 @@
                         break;
 
                     case "2":
-                        //TODO
                         break;
 
                     case "3":
@@ -58,6 +57,12 @@
                         result = Remainder.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
+
+                    case "9":
+                        result = SquareRoot.Root(num1);
+                        Console.WriteLine($"Result: {result}");
+                        break;
+
                     case "7":
                         result = Percentage.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
@@ -93,8 +98,9 @@
             Console.WriteLine("5. Power");
             Console.WriteLine("6. Remainder");
             Console.WriteLine("7. Percentage");
-            Console.WriteLine("8. Exit");
-            Console.Write("Enter your choice (1-8): ");
+            Console.WriteLine("9. Square Root");
+            Console.WriteLine("10. Exit");
+            Console.Write("Enter your choice (1-10): ");
         }
 
         private static void EnterNumbers(out double num1, out double num2)
