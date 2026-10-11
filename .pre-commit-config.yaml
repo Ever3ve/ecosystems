@@ -44,3 +44,8 @@ repos:
         stages: [post-merge]
         always_run: true
         verbose: true
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.45.0
+    hooks:
+      - id: markdownlint

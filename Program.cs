@@ -58,7 +58,7 @@
                         result = Remainder.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
-                  case "7":
+                    case "7":
                         result = Percentage.Calculate(num1, num2);
                         Console.WriteLine($"Result: {result}");
                         break;
