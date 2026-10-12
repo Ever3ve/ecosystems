@@ -7,3 +7,14 @@
 
 # Правила командної роботи — відповідальний Student B
 /CONTRIBUTING.md @LiudmylAAA
+
+# Студент В — інфраструктура (за замовчуванням усе)
+*                         @Ever3ve
+/.github/                 @Ever3ve
+/.githooks/               @Ever3ve
+/.pre-commit-config.yaml  @Ever3ve
+/.markdownlint.json       @Ever3ve
+/.gitignore               @Ever3ve
+/prepare_msg.py           @Ever3ve
+/docs/Student3_Architecture.md   @Ever3ve
+/docs/adr/0003-use-codeowners.md @Ever3ve
